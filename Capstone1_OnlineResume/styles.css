@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+.top{
+    border: 1px solid black;
+    display: flex;
+}
+
+.top-image{
+    border: 2px solid blue;
+}
+
+.image{
+    display: block;
+}
+
+.top-text{
+    border: 2px solid red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5vw;
+    padding-top: 50px;
+}
+
+.nav{
+    display: flex;
+    background-color: orange;
+    padding: 2px;
+    position: sticky;
+}
