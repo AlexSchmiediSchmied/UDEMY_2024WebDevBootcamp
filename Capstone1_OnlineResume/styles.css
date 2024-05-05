@@ -13,7 +13,6 @@
 }
 
 .top{
-    border: 1px solid black;
     display: flex;
 }
 
@@ -25,7 +24,6 @@
 }
 
 .top-text{
-    border: 2px solid red;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
