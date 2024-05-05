@@ -1,5 +1,15 @@
+@media (max-width: 600px){
+  .nav-ul a {
+    font-size: 4vw;
+  }
+
+  body{
+    font-size: 4vw;
+  }
+}
 *{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .top{
@@ -7,13 +17,10 @@
     display: flex;
 }
 
-.top-image{
-    border: 2px solid blue;
-}
 
 .image{
     display: block;
-     width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -65,3 +72,26 @@
     padding: 1rem;
   }
 
+  .education{
+    padding: 1rem;
+  }
+  
+.table{
+  padding: 1rem;
+  overflow-x:auto; 
+}
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+
+  .strong{
+    font-weight: bold;
+  }
