@@ -22,21 +22,22 @@
     <div class="nav">
         <ul class="nav-ul">
             <li>
-                <a href="" class="side-link" id="about-me">About Me</a>
+                <a href="#aboutMe" class="side-link" >About Me</a>
             </li>
             <li>
-                <a href="" class="side-link" id="education">Education</a>
+                <a href="#education" class="side-link" >Education</a>
             </li>
             <li>
-                <a href="" class="side-link" id="skills">Skills</a>
+                <a href="#skill-table" class="side-link" >Skills</a>
             </li>
             <li>
-                <a href="" class="side-link" id="projects">Projects</a>
+                <a href="#contact" class="side-link">Contact</a>
             </li>
+            
         </ul>
     </div>
 
-    <div class="aboutMe">
+    <div class="aboutMe" id="aboutMe">
         <h2>Me about myself</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam rem fuga reprehenderit quia at, labore mollitia molestiae velit nulla tenetur, numquam consequatur iure laboriosam aliquid laborum ratione rerum exercitationem nihil.</p>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam rem fuga reprehenderit quia at, labore mollitia molestiae velit nulla tenetur, numquam consequatur iure laboriosam aliquid laborum ratione rerum exercitationem nihil.</p>
@@ -45,12 +46,52 @@
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam rem fuga reprehenderit quia at, labore mollitia molestiae velit nulla tenetur, numquam consequatur iure laboriosam aliquid laborum ratione rerum exercitationem nihil.</p>
     </div>
 <hr>
-    <div class="skill-table">
-        <h2>My Skills: <span id="italic">(As rated by myself)</span></h2>
+    <div class="education" id="education">
+        <h2>My Education</h2>
+        <ul>
+            <li><span class="strong">Year-Year</span> Education 1</li>
+            <li><span class="strong">Year-Year</span> Education 2</li>
+            <li><span class="strong">Year-Year</span> Education 3</li>
+        </ul>
     </div>
 <hr>
-<div class="bottom">
+    <div class="skill-table" id="skill-table">
+        <h2>My Skills: <span id="italic">(As rated by myself)</span></h2>
+        <div class="table">
+            <table>
+                <tr>
+                    <td class="strong">HTML</td>
+                    <td>Basic Knowledge</td>
+                    <td class="strong">CSS</td>
+                    <td>Basic Knowledge</td>
+                    <td class="strong">JavaScript</td>
+                    <td>Basic Knowledge</td>
+                </tr>
+                <tr>
+                    <td class="strong">C#</td>
+                    <td>Basic Knowledge</td>
+                    <td class="strong">MS SQL</td>
+                    <td>Basic Knowledge</td>
+                    <td class="strong">Node.js</td>
+                    <td>Basic Knowledge</td>
+                </tr>
+                <tr>
+                    <td class="strong">MS Word</td>
+                    <td>Very Good</td>
+                    <td class="strong">MS Excel</td>
+                    <td>Very Good</td>
+                    <td class="strong">MS Access</td>
+                    <td>Good</td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+<hr>
+<div class="bottom" id="contact">
     <h2>Contact Me:</h2>
     <p>Via email:<a href="mailto:webmaster@example.com">Alex Schmied</a></p>
+
+</div>
 </body>
 </html>
